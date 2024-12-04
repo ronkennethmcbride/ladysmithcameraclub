@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Complete Guide to Long Exposure Photography</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon.svg" />
+<style>
+
+/* logo*/
+#logo {
+  float: left;
+  width: 80px;
+  margin-left: 37px;
+  margin-top: -55px;
+}
+
+.con2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 6em;
+	padding-top: 1em;
+	font-size: 3em;
+	
+ }
+ 
+ .video-container {
+  position: relative;
+  width: 50%;
+  max-width: 1280px; /* Optional: Set a max-width for large screens */
+  margin: 100px auto 0; /* 200px from the top, center horizontally */
+  transform: translateY(0); /* Ensures the top margin is accurate */
+}
+
+video {
+  width: 100%; /* Makes the video responsive */
+  height: auto; /* Keeps aspect ratio */
+}
+
+</style>
+
+
+
+   
+  </head>
+  <body>
+    <!--Logo-->
+    
+  <a href="../index.html"><img id="logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjgzIgogICBoZWlnaHQ9IjgyIgogICB2aWV3Qm94PSIwIDAgODMgODIiCiAgIGZpbGw9Im5vbmUiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzE0NDYiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnMKICAgICBpZD0iZGVmczE0NTAiIC8+CiAgPGcKICAgICBpZD0iZzEyMjEiCiAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMC4yMDUwOTMxNywwLDAsMC4yMDUwOTMxNywwLjUwNDU4MjY4LC0wLjAyOTcyMykiPgogICAgPHJlY3QKICAgICAgIHN0eWxlPSJmaWxsOiNmY2ZjODA7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjIuNjc0NTI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kIgogICAgICAgaWQ9InJlY3QxNDg2IgogICAgICAgd2lkdGg9IjM5OS44MTI2OCIKICAgICAgIGhlaWdodD0iMzg1LjY1OTg4IgogICAgICAgeD0iMC4wOTM2NTA2MDIiCiAgICAgICB5PSIxLjA5MjU5ODJlLTA1IiAvPgogICAgPHBhdGgKICAgICAgIGlkPSJwYXRoMTE0NyIKICAgICAgIHN0eWxlPSJmaWxsOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjMuNTg3OSIKICAgICAgIGQ9Im0gLTIuNzE2NzEwNiw0LjQ1OTEyIHYgMTk1LjU0MDg2IDE5NS41NDA5IEggMjAwIDQwMi43MTY3MSBWIDE5OS45OTk5OCA0LjQ1OTEyIEggMjAwIFogTSAyMDAsMjMuMTM0MzQ5IEEgMTc2Ljg2NzAyLDE3Ni44NjcwMiAwIDAgMSAzNzYuODY1NDksMTk5Ljk5OTk4IDE3Ni44NjcwMiwxNzYuODY3MDIgMCAwIDEgMjAwLDM3Ni44NjU1NCAxNzYuODY3MDIsMTc2Ljg2NzAyIDAgMCAxIDIzLjEyNzQ3NywxOTkuOTk5OTggMTc2Ljg2NzAyLDE3Ni44NjcwMiAwIDAgMSAyMDAsMjMuMTM0MzQ5IFogbSAtOTQuOTI1MzMsNzEuMzQ0NzE2IHYgMTIuOTI5MDg1IGMgMCw3LjUwMDQ5IC0wLjA5NTEsNTYuMDMzMDEgLTAuMTIxOTksMTA3LjgzMzQgbCAwLjEyMTk5LDkzLjUwOTg2IDkwLjQzMzM4LDAuMjAzNDQgYyA3MS4wMjM0NSwwLjE1NzE1IDc1LjQ2NTI0LC0wLjIwMzQ0IDc1LjQ2NTI0LC0wLjIwMzQ0IGwgLTQ4LjUyNzc4LC04LjEzNTg2IGMgLTg4LjIyMjM3LC0xMi43MTUyMSAtNzIuMDUwODIsLTMuMTEyNjkgLTgzLjIwODYsLTMxLjEzNDg4IC0xMS4yOTg4MSwtMjguMzc1OTUgLTE3LjcxODI2LC02My41OTk2MSAtMTIuODczMDgsLTkyLjMyNTUzIDQuNDI5NywtMjYuMjYyMTQgMjAuMjI1MSwtNTIuMjA4MjYgMjYuNDQ2ODEsLTYzLjQ1NDA5IDMuNzc4MzksLTUuMDUxMTYgMTIuMjYzMzksLTE5LjIyMTk4NSAxMi4yNjMzOSwtMTkuMjIxOTg1IGggLTI4LjA1ODYgeiBtIDY1LjIyNjk4LDAgMC4wNDA1LDk3LjQ0ODE2NSAtMC4yMTAyNSw5NS45NzY0OCBoIDI3Ljg2MjI0IDI5LjE5Mzc4IGwgLTguNjYxNDIsLTExLjY2MDcgYyAtMzguNDgxLC01MS4zMjU2IC0zOC41OTEwMSwtMTE5LjM4OTAzIC0wLjI3Mzc1LC0xNjkuNjI2NjcgbCA5LjY5ODU0LC0xMi4xMzcyNzUgaCAtMjcuOTYwNDQgeiBtIDY1LjAyMzgzLDAgYyAwLDAgMC4wMTQ0LDQuMTM1MzEyIDAsNy45NjA3MzUgLTAuMDI4Nyw0LjQ0IDEuMjQ0ODYsMzMuNjk1NSAwLDY1LjI2OTAzIC0xLjI0MzUsMzEuNTczNjQgLTEuMDc4MDYsNzEuNTMzOTQgMC4zNjQ3OCw4OC44MDA3IGwgLTAuMzY0NzgsMzEuMzk0MTggaCAyOS40NzQwNyAyNy42MzgxIGwgLTExLjU3NjY2LC0xNC43MzAwNCBjIC0zNi4xNDgxOSwtNDYuMDE2NzkgLTM0LjM5Njk3LC0xMTguOTg1NzIgLTAuMTU0NjQsLTE2MS41OTU5NCA1LjkyODgzLC03LjM3NzQ5IDEzLjQ2MTcxLC0xNy4wOTg2NjUgMTMuNDYxNzEsLTE3LjA5ODY2NSBoIC0yOS4yMDc4NCB6IiAvPgogICAgPHJlY3QKICAgICAgIHN0eWxlPSJmaWxsOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjAuNzU1OTA2O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZCIKICAgICAgIGlkPSJyZWN0MTc3MSIKICAgICAgIHdpZHRoPSI0MDIuNjIzMDUiCiAgICAgICBoZWlnaHQ9IjQuNDU5MTA5MyIKICAgICAgIHg9IjAuMDkzNjUwNjAyIgogICAgICAgeT0iMS4wOTI1OTgyZS0wNSIgLz4KICAgIDxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO3N0cm9rZS13aWR0aDowLjc1NTkwNjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQiCiAgICAgICBpZD0icmVjdDE3NzMiCiAgICAgICB3aWR0aD0iMzk5LjkwNjM0IgogICAgICAgaGVpZ2h0PSIxNC4zNDAxMTgiCiAgICAgICB4PSIwLjA5MzY1MDYwMiIKICAgICAgIHk9IjM4NS42NTk4OCIgLz4KICA8L2c+Cjwvc3ZnPgo=" data-no-cache="false" title="click to go back" /></a>
+ 
+</div>
+   
+<div class="video-container">
+      <div class="con2">
+        <div class="con2">
+            <iframe width="600" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1343221399&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><BR>
+        </div>
+       
+      </div>
+      
+      <!-- partial -->
+  </body>
+</html>
